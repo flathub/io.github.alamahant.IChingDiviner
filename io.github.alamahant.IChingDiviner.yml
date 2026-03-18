@@ -19,6 +19,6 @@ modules:
     sources:
       - type: git
         url: https://github.com/alamahant/IChingDiviner.git
-        tag: v1.0.0
-        commit: 2387c7692518280333d839bf4b612ff8e650e737
+        tag: v1.0.1
+        commit: 158ddceef84e290d3559d534a6cb4a3a1f79e729
       
