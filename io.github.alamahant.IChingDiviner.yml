@@ -8,8 +8,9 @@ finish-args:
   - --socket=fallback-x11
   - --socket=wayland
   - --device=dri
-# Needed to forward divination data to any user-configured ai model for receiving interpretation.
   - --share=network
+# needed for playing coin toss sound effects
+  - --socket=pulseaudio
 modules:
   - name: IChingDiviner
     buildsystem: cmake-ninja
@@ -19,6 +20,6 @@ modules:
     sources:
       - type: git
         url: https://github.com/alamahant/IChingDiviner.git
-        tag: v1.0.1
-        commit: 158ddceef84e290d3559d534a6cb4a3a1f79e729
+        tag: v1.0.2
+        commit: 8b6e9e94b5c4a26de34a170cccb2641128d91d0d
       
